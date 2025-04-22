@@ -33,7 +33,7 @@
 
 </head>
 <body>
-
+    @yield('xyz');
 	<!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">
@@ -198,7 +198,7 @@
 
 
 
-
+{{-- reservation de page --}}
 @yield('content')
 
 
